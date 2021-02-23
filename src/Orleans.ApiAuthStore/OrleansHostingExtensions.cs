@@ -6,10 +6,10 @@ namespace Orleans.ApiAuthStore
     {
         /// <summary>
         /// Add identity store to orleans. Grain storage provider name can be found at <see
-        /// cref="OrleansIdentityConstants.OrleansStorageProvider"/> ///
+        /// cref="ApiAuthConstants.OrleansGrantStorageProvider"/> ///
         /// </summary>
         /// <param name="builder">Silo builder</param>
-        public static ISiloBuilder UseOrleanIdentityStore(this ISiloBuilder builder)
+        public static ISiloBuilder UseOrleanApiAuthStore(this ISiloBuilder builder)
         {
             try
             {
@@ -37,7 +37,7 @@ namespace Orleans.ApiAuthStore
         /// cref="OrleansIdentityConstants.OrleansStorageProvider"/> ///
         /// </summary>
         /// <param name="builder">Silo builder</param>
-        public static ISiloHostBuilder UseOrleanIdentityStore(this ISiloHostBuilder builder)
+        public static ISiloHostBuilder UseOrleanApiAuthStore(this ISiloHostBuilder builder)
         {
             try
             {
