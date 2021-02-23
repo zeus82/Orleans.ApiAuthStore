@@ -1,6 +1,6 @@
-﻿using Orleans.Hosting;
+﻿using Orleans.ApiAuthStore;
 
-namespace Orleans.ApiAuthStore
+namespace Orleans.Hosting
 {
     public static class SiloBuilderExtensions
     {

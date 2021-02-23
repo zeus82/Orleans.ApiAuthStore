@@ -7,7 +7,7 @@
 		<Description>Uses Orleans storage to store API Auth data</Description>
 		<PackageProjectUrl></PackageProjectUrl>
 		<RepositoryUrl>https://github.com/zeus82/Orleans.ApiAuthStore</RepositoryUrl>
-		<Version>0.1.1</Version>
+		<Version>0.1.2</Version>
 		<PackageTags>Orleans API-Store</PackageTags>
 	</PropertyGroup>
 
